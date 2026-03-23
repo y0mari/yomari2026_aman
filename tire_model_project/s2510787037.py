@@ -5,6 +5,7 @@ from tyre_model import TyreModel
 from constants import SIDE_FORCE_COEFFS, BRAKE_FORCE_COEFFS
 from plotter import plot_forces
 
+
 def compute_vertical_load(vehicle_mass=1500.0):
     return (vehicle_mass * g) / 4.0  # per wheel
 
