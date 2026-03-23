@@ -2,7 +2,7 @@ import argparse
 import numpy as np
 from scipy.constants import g
 from tyre_model import TyreModel
-from constants import SIDE_FORCE_COEFFS, BRAKE_FORCE_COEFFS
+from constant import SIDE_FORCE_COEFFS, BRAKE_FORCE_COEFFS
 from plotter import plot_forces
 
 
